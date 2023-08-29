@@ -1,0 +1,68 @@
+body{
+    position: relative;
+}
+
+.my-photo{
+    position: absolute;
+    top: 0px;
+    left: 600px;
+}
+
+.my-photo:hover{
+    top: 300px;
+    left: 0px;
+}
+
+.table{
+    border: 8px ridge #61b925;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+td{
+    padding: 5px 10px;
+}
+
+.nums{
+    background-color: rgb(123, 123, 123); 
+    border-bottom: 2px dashed rgb(123, 123, 123);
+}
+
+.header-title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(123, 123, 123);
+    color: #fff;
+}
+
+.lessons-nums{
+    font-size: 18px;
+    font-weight: 700;
+    background-color:rgb(123, 123, 123); 
+    color: #fff;
+}
+
+.lesson-item{
+    text-align: center;
+    background-color: #6bbbc1;
+}
+
+.lesson-theme{
+    text-align: center;
+    background-color: #8cd1ab;
+}
+
+.lesson-item-link{
+    text-decoration: none;
+}
+
+.lesson-item:hover{
+    background-color:rgb(54, 128, 68);
+}
+
+.lesson-item:hover .lesson-item-link{
+    color:#fff;
+    font-weight: 700;
+}
+

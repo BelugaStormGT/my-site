@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./common.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Урок 3. Створення таблиць, додавання меж</h1>
+    <table style="border:1px solid blue; border-collapse:collapse">
+        <tr bgcolor="darkblue" style="color:white; text-align:center">
+            <td></td>
+            <td>Назва</td>
+            <td>Тип</td>
+            <td>Розмір порції</td>
+            <td>Ціна</td>
+            <td>Акція</td>
+        </tr>
+        <tr style="border-bottom:1px dashed cyan">
+            <td bgcolor="darkblue" style="color:white">1</td>
+            <td bgcolor="#dcdcdc">Кава "Американо"</td>
+            <td rowspan="2" bgcolor="#FFF8DC">Напій</td>
+            <td bgcolor="#98FB98">Стандарт</td>
+            <td bgcolor="#B0C4DE">25 грн.</td>
+            <td bgcolor="#FFA07A">Ні</td>
+        </tr>
+        <tr style="border-bottom:1px dashed cyan">
+            <td bgcolor="darkblue" style="color:white">2</td>
+            <td bgcolor="d3d3d3">Капучино</td>
+            <td rowspan="2" bgcolor="#7FFF00">Середній</td>
+            <td colspan="2" bgcolor="#FFFF00" style="color:red; font-weight:bolder">До 01.09 20 грн.</td>
+        </tr>
+        <tr style="border-bottom:1px dashed cyan">
+            <td bgcolor="darkblue" style="color:white">3</td>
+            <td bgcolor="#C0C0C0">Салат "Цезар"</td>
+            <td rowspan="2" bgcolor="#FFE4C4">Страва</td>
+            <td bgcolor="#B0C4DE">50 грн.</td>
+            <td bgcolor="#FFA07A">Ні</td>
+        </tr>
+        <tr style="border-bottom:1px dashed cyan">
+            <td bgcolor="darkblue" style="color:white">4</td>
+            <td bgcolor="#A9A9A9">Паста з куркою</td>
+            <td rowspan="2" bgcolor="#00FF00">Великий</td>
+            <td colspan="2" bgcolor="#FFFF00" style="color:red; font-weight:bolder">До 01.11 70 грн.</td>
+        </tr>
+        <tr>
+            <td bgcolor="darkblue" style="color:white">5</td>
+            <td bgcolor="#696969">Тірамісу</td>
+            <td bgcolor="#F5DEB3">Десерт</td>
+            <td bgcolor="#B0C4DE">40 грн.</td>
+            <td bgcolor="#FFA07A">Ні</td>
+        </tr>
+    </table>
+
+    <a href="./index.html" class="button-back">Повернутися на головну!</a>
+</body>
+</html>

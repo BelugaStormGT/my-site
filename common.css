@@ -1,0 +1,42 @@
+.button-back{
+    display: block;
+    max-width:max-content;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 250ms linear;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+.button-lesson-back{
+    color: brown;
+    margin-bottom: 20px;
+    border: 2px solid rgb(1, 248, 124);
+    padding: 5px 15px;
+    background-color: rgb(255, 221, 0);
+    font-size: 18px;
+}
+
+
+
+.button-back:hover{
+    background-color: blueviolet;
+    color: aqua;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.button-back:active{
+    background-color: blue;
+}
+
+.button-lesson-back:hover{
+    background-color: rgb(1, 248, 124);
+    color: rgb(255, 221, 0);
+    border: 2px solid rgb(255, 221, 0);
+}
